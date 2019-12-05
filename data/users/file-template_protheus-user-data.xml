@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<totvs-data-set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<protheus-user-data>
+	<userName>login</userName>
+	<emails>given.lastname@domain</emails>
+	<active>true</active><!-- COMMENTS: Boolean value ("true" or "false") -->
+	<displayName>Firstname Middlename Lastname</displayName><!-- COMMENTS: User Fullname -->
+	<password>user5ecretP@ss</password>
+	<department>Department of Labor</department>
+	<title>Worker Function Name</title>
+	<manager>[000456.0034NM]</manager><!-- COMMENTS: Comma Separated Superior User Codes -->
+	<groups>[0263PG, 0211iH]</groups><!-- COMMENTS: Comma-separated user access group codes -->
+	<externalId>54ce0f61-3777-4289-9ce0-802b4baf08c7</externalId><!-- COMMENTS: UUID. External Unique ID. Usually equals Email or userName -->
+	<registration>SRA-&gt;RA_MAT</registration><!-- COMMENTS: Employee Code Field (SRA->RA_MAT) / Functional registration -->
+	<forceChangePassword>false</forceChangePassword><!-- COMMENTS: Change Password Next Login. Boolean value ("true" or "false") -->
+</protheus-user-data>

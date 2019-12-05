@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<totvs-data-set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+	<protheus-user-data>
+		<userName>user-TEST-001</userName>
+		<emails>user001.test@caoa.local</emails>
+		<active>false</active>
+		<displayName>Usuario TEST 001</displayName>
+		<password>user-TEST-001</password>
+		<department>Sistemas</department>
+		<title>Assistente</title>
+		<manager></manager>
+		<groups>GRP001</groups>
+		<externalId>user-TEST-001</externalId>
+		<registration>000001</registration>
+		<forceChangePassword>true</forceChangePassword>
+		<groupRule>2</groupRule>
+	</protheus-user-data>
+	<protheus-user-data>
+		<userName>user-TEST-002</userName>
+		<emails>user002.test@caoa.local</emails>
+		<active>false</active>
+		<displayName>Usuario TEST 002</displayName>
+		<password>user-TEST-002</password>
+		<department>Sistemas</department>
+		<title>Assistente</title>
+		<manager></manager>
+		<groups>GRP002</groups>
+		<externalId>user-TEST-002</externalId>
+		<registration>000002</registration>
+		<forceChangePassword>true</forceChangePassword>
+		<groupRule>2</groupRule>
+	</protheus-user-data>
+	<protheus-user-data>
+		<userName>user-TEST-003</userName>
+		<emails>user003.test@caoa.local</emails>
+		<active>false</active>
+		<displayName>Usuario TEST 003</displayName>
+		<password>user-TEST-003</password>
+		<department>Sistemas</department>
+		<title>Assistente</title>
+		<manager></manager>
+		<groups>GRP003</groups>
+		<externalId>user-TEST-003</externalId>
+		<registration>000003</registration>
+		<forceChangePassword>true</forceChangePassword>
+		<groupRule>2</groupRule>
+	</protheus-user-data>
+	<protheus-user-data>
+		<userName>user-TEST-004</userName>
+		<emails>user004.test@caoa.local</emails>
+		<active>false</active>
+		<displayName>Usuario TEST 004</displayName>
+		<password>user-TEST-004</password>
+		<department>Sistemas</department>
+		<title>Assistente</title>
+		<manager></manager>
+		<groups>GRP004</groups>
+		<externalId>user-TEST-004</externalId>
+		<registration>000004</registration>
+		<forceChangePassword>true</forceChangePassword>
+		<groupRule>2</groupRule>
+	</protheus-user-data>
+	<protheus-user-data>
+		<userName>user-TEST-005</userName>
+		<emails>user005.test@caoa.local</emails>
+		<active>false</active>
+		<displayName>Usuario TEST 005</displayName>
+		<password>user-TEST-005</password>
+		<department>Sistemas</department>
+		<title>Assistente</title>
+		<manager></manager>
+		<groups>GRP005</groups>
+		<externalId>user-TEST-005</externalId>
+		<registration>000005</registration>
+		<forceChangePassword>true</forceChangePassword>
+		<groupRule>2</groupRule>
+	</protheus-user-data>
+
+	<!-- EMMET :: (protheus-user-data>(userName{user-TEST-$$$}+emails{user$$$.test@caoa.local}+active{false}+displayName{Usuario TEST $$$}+password{user-TEST-$$$}+department{Sistemas}+title{Assistente}+manager{}+groups{GRP$$$}+externalId{user-TEST-$$$}+registration{$$$$$$}+forceChangePassword{true}+groupRule{2}))*5 -->
+
+</totvs-data-set>

@@ -1,0 +1,37 @@
+{
+    "schemas": [
+        "urn:scim:schemas:core:2.0:User",
+        "urn:scim:schemas:extension:enterprise:2.0:User"
+    ],
+    "externalId": "caoa-systems@caoa.com.br",
+    "meta": {},
+    "userName": "CAOA-SYSTEMS",
+    "displayName": "System Service User TOTVS Protheus CAOA",
+    "title": "System Service User",
+    "emails": [
+        {
+            "value": "caoa-systems@caoa.com.br",
+            "primary": true
+        }
+    ],
+    "active": true,
+    "groups": [
+        {
+            "value": "000005"
+        },
+        {
+            "value": "000006"
+        }
+    ],
+    "password": "CaoaSystemsPass",
+    "urn:scim:schemas:extension:totvs:2.0:User/forceChangePassword": true,
+    "urn:scim:schemas:extension:enterprise:2.0:User/department": "Infraestrutura de Sistemas",
+    "urn:scim:schemas:extension:totvs:2.0:User/groupRule": 3,
+    "urn:scim:schemas:extension:enterprise:2.0:User": {
+        "manager": [
+            {
+                "managerid": "000000"
+            }
+        ]
+    }
+}

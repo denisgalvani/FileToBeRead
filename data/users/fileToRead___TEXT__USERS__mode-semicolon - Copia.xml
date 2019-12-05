@@ -1,0 +1,3 @@
+USUARIO;EMAIL;BLOQUEADO;NOME;SENHA;DEPARTAMENTO;CARGO;SUPERIOR;GRUPOS;externalId;MATRICULA;SENHA_TROCAR;PRIORIZAR
+userName;emails;active;displayName;password;department;title;manager;groups;externalId;SRA->RA_MAT;forceChangePassword;groupRule
+CAOA-SYSTEMS;caoa-systems@caoa.com.br ;true;System Service User TOTVS Protheus CAOA ;CaoaSystemsPass;Infraestrutura de Sistemas;System Service User ;000009;[000005,000006];caoa-systems@caoa.com.br;;false;3

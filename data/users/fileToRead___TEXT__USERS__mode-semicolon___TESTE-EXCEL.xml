@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<totvs-data-set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<protheus-user-data>
+		<userName>userName</userName>
+		<emails>emails</emails>
+		<active>active</active>
+		<displayName>displayName</displayName>
+		<password>password</password>
+		<department>department</department>
+		<title>title</title>
+		<manager>manager</manager>
+		<groups>groups</groups>
+		<externalId>externalId</externalId>
+		<registration>SRA-&gt;RA_MAT</registration>
+		<forceChangePassword>forceChangePassword</forceChangePassword>
+		<groupRule>groupRule</groupRule>
+	</protheus-user-data>
+	<protheus-user-data>
+		<userName>CAOA-SYSTEMS</userName>
+		<emails>caoa-systems@caoa.com.br </emails>
+		<active>true</active>
+		<displayName>System Service User TOTVS Protheus CAOA </displayName>
+		<password>CaoaSystemsPass</password>
+		<department>Infraestrutura de Sistemas</department>
+		<title>System Service User </title>
+		<manager>9</manager>
+		<groups>[000005,000006]</groups>
+		<externalId>caoa-systems@caoa.com.br</externalId>
+		<forceChangePassword>false</forceChangePassword>
+		<groupRule>3</groupRule>
+	</protheus-user-data>
+</totvs-data-set>
