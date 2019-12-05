@@ -1,0 +1,4732 @@
+{
+    "totalResults": 135,
+    "itemsPerPage": 135,
+    "startIndex": 1,
+    "schemas": [
+        "urn:scim:schemas:core:2.0:User",
+        "urn:scim:schemas:extension:enterprise:2.0:User"
+    ],
+    "resources": [
+        {
+            "id": "000068",
+            "name": {
+                "formatted": "AGATA RODRIGUES",
+                "givenName": "AGATA",
+                "familyName": "RODRIGUES"
+            },
+            "userName": "TOTVS-AGATA",
+            "displayName": "AGATA RODRIGUES",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-12-05_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "AGATA.RODRIGUES@TOTVS.COM.BR",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "AGATA.RODRIGUES@TOTVS.COM.BR",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": "TOTVS"
+        },
+        {
+            "id": "000066",
+            "name": {
+                "formatted": "AIDE DA SILVA LOBO MELO",
+                "givenName": "AIDE",
+                "familyName": "DA SILVA LOBO MELO"
+            },
+            "userName": "aide.melo",
+            "displayName": "AIDE DA SILVA LOBO MELO",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-12-05_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "aide.melo@caoa.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "aide.melo@caoa.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "",
+            "department": "COMPRAS"
+        },
+        {
+            "id": "000008",
+            "name": {
+                "formatted": "ANDRE BALIEIRO",
+                "givenName": "ANDRE",
+                "familyName": "BALIEIRO"
+            },
+            "userName": "TOTVS-ANDRE",
+            "displayName": "ANDRE BALIEIRO",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-10-10_00:00:00",
+                "lastModified": "2019-05-23_00:00:00"
+            },
+            "externalId": "andre.balieiro@totvs.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "andre.balieiro@totvs.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000056",
+            "name": {
+                "formatted": "ANTONIO MARCIO ALVES DE MORAIS",
+                "givenName": "ANTONIO",
+                "familyName": "MARCIO ALVES DE MORAIS"
+            },
+            "userName": "antonio.morais",
+            "displayName": "ANTONIO MARCIO ALVES DE MORAIS",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-15_00:00:00"
+            },
+            "externalId": "antonio.morais@caoamontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "antonio.morais@caoamontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "WMS Key User",
+            "department": "WMS"
+        },
+        {
+            "id": "000130",
+            "name": {
+                "formatted": "ATILIO DUARTE",
+                "givenName": "ATILIO",
+                "familyName": "DUARTE"
+            },
+            "userName": "TOTVS-ATILIO",
+            "displayName": "ATILIO DUARTE",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-10-09_00:00:00",
+                "lastModified": "2019-05-30_00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000172",
+            "name": {
+                "formatted": "Abilio Augusto",
+                "givenName": "Abilio",
+                "familyName": "Augusto"
+            },
+            "userName": "TOTVS-ABILIO",
+            "displayName": "Abilio Augusto",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-10-09_00:00:00",
+                "lastModified": "2019-05-14_00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000005",
+            "name": {
+                "formatted": "Adriana Soares",
+                "givenName": "Adriana",
+                "familyName": "Soares"
+            },
+            "userName": "TOTVS-ADRIANA",
+            "displayName": "Adriana Soares",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-10-17_00:00:00",
+                "lastModified": "2019-10-31_00:00:00"
+            },
+            "externalId": "adriana.soares@totvs.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "adriana.soares@totvs.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000046",
+            "name": {
+                "formatted": "Alecsandro Amaro",
+                "givenName": "Alecsandro",
+                "familyName": "Amaro"
+            },
+            "userName": "TOTVS-ALECSANDRO",
+            "displayName": "Alecsandro Amaro",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-23_00:00:00",
+                "lastModified": "2019-05-29_00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000018",
+            "name": {
+                "formatted": "Alessandra Roberta De Jesus Neves",
+                "givenName": "Alessandra",
+                "familyName": "Roberta De Jesus Neves"
+            },
+            "userName": "alessandra.neves",
+            "displayName": "Alessandra Roberta De Jesus Neves",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "alessandra.neves@caomontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "alessandra.neves@caomontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": false,
+            "groups": [],
+            "roles": [],
+            "title": "Manuten��o de Ativos - Key User",
+            "department": "Manuten��o de Ativos"
+        },
+        {
+            "id": "000052",
+            "name": {
+                "formatted": "Aline Aparecida de Oliveira Barbosa",
+                "givenName": "Aline",
+                "familyName": "Aparecida de Oliveira Barbosa"
+            },
+            "userName": "aline.aparecida",
+            "displayName": "Aline Aparecida de Oliveira Barbosa",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "aline@caoa.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "aline@caoa.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "Contabilidade - Key User",
+            "department": "Contabilidade"
+        },
+        {
+            "id": "000034",
+            "name": {
+                "formatted": "Alinne Brito Fideles",
+                "givenName": "Alinne",
+                "familyName": "Brito Fideles"
+            },
+            "userName": "alinne.fideles",
+            "displayName": "Alinne Brito Fideles",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-14_00:00:00"
+            },
+            "externalId": "alinne.fideles@caoa.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "alinne.fideles@caoa.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "Financeiro - Key User",
+            "department": "Financeiro"
+        },
+        {
+            "id": "000019",
+            "name": {
+                "formatted": "Amanda Silva De Avila",
+                "givenName": "Amanda",
+                "familyName": "Silva De Avila"
+            },
+            "userName": "amanda.avila",
+            "displayName": "Amanda Silva De Avila",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "amanda.avila@caoamontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "amanda.avila@caoamontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": false,
+            "groups": [],
+            "roles": [],
+            "title": "Manuten��o de Ativos - Key User",
+            "department": "Manuten��o de Ativos"
+        },
+        {
+            "id": "000125",
+            "name": {
+                "formatted": "Antonio Oliveira",
+                "givenName": "Antonio",
+                "familyName": "Oliveira"
+            },
+            "userName": "TOTVS-ANTONIO",
+            "displayName": "Antonio Oliveira",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-10-09_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000160",
+            "name": {
+                "formatted": "Aprovador Nao Produtivas",
+                "givenName": "Aprovador",
+                "familyName": "Nao Produtivas"
+            },
+            "userName": "aprov.nprodutiva",
+            "displayName": "Aprovador Nao Produtivas",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-13_00:00:00",
+                "lastModified": "2019-05-13_00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000159",
+            "name": {
+                "formatted": "Aprovador Produtivas",
+                "givenName": "Aprovador",
+                "familyName": "Produtivas"
+            },
+            "userName": "aprov.produtiva",
+            "displayName": "Aprovador Produtivas",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-13_00:00:00",
+                "lastModified": "2019-05-15_00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000148",
+            "name": {
+                "formatted": "BRUNO CORREA DE PAIVA",
+                "givenName": "BRUNO",
+                "familyName": "CORREA DE PAIVA"
+            },
+            "userName": "bruno.paiva",
+            "displayName": "BRUNO CORREA DE PAIVA",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-13_00:00:00",
+                "lastModified": "    -  -  _00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000005",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000005",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000078",
+            "name": {
+                "formatted": "BRUNO SABIONI",
+                "givenName": "BRUNO",
+                "familyName": "SABIONI"
+            },
+            "userName": "TOTVS.SABIONI",
+            "displayName": "BRUNO SABIONI",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-04-03_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "BRUNO.SABIONI@TOTVSPARTNERS.COM.BR",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "BRUNO.SABIONI@TOTVSPARTNERS.COM.BR",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000146",
+            "name": {
+                "formatted": "BRUNO SANTANA DE OLIVEIRA",
+                "givenName": "BRUNO",
+                "familyName": "SANTANA DE OLIVEIRA"
+            },
+            "userName": "bruno.oliveira",
+            "displayName": "BRUNO SANTANA DE OLIVEIRA",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-13_00:00:00",
+                "lastModified": "    -  -  _00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000005",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000005",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000042",
+            "name": {
+                "formatted": "Benedito Carlos Britto",
+                "givenName": "Benedito",
+                "familyName": "Carlos Britto"
+            },
+            "userName": "benedito.britto",
+            "displayName": "Benedito Carlos Britto",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "imp@caoa.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "imp@caoa.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "Importa��o - Key User",
+            "department": "Importa��o"
+        },
+        {
+            "id": "000065",
+            "name": {
+                "formatted": "Bruna de Oliveira Viana",
+                "givenName": "Bruna",
+                "familyName": "de Oliveira Viana"
+            },
+            "userName": "bruna.viana",
+            "displayName": "Bruna de Oliveira Viana",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-01_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "bruna.viana@caoa.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "bruna.viana@caoa.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "Adminstrador de Sistemas",
+            "department": "T.I"
+        },
+        {
+            "id": "000141",
+            "name": {
+                "formatted": "CARLOS ALBERTO FRANCISCO M. FILHO",
+                "givenName": "CARLOS",
+                "familyName": "ALBERTO FRANCISCO M. FILHO"
+            },
+            "userName": "carlos.francisco",
+            "displayName": "CARLOS ALBERTO FRANCISCO M. FILHO",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-13_00:00:00",
+                "lastModified": "    -  -  _00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000005",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000005",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000145",
+            "name": {
+                "formatted": "CASSIO RANGEL DE ANDRADE",
+                "givenName": "CASSIO",
+                "familyName": "RANGEL DE ANDRADE"
+            },
+            "userName": "cassio.andrade",
+            "displayName": "CASSIO RANGEL DE ANDRADE",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-13_00:00:00",
+                "lastModified": "2019-05-16_00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000005",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000005",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000195",
+            "name": {
+                "formatted": "CHAMADO",
+                "givenName": "CHAMADO",
+                "familyName": "."
+            },
+            "userName": "CHAMADO",
+            "displayName": "CHAMADO",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-10-09_00:00:00",
+                "lastModified": "2019-08-07_00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000035",
+            "name": {
+                "formatted": "Carmine Milone",
+                "givenName": "Carmine",
+                "familyName": "Milone"
+            },
+            "userName": "carmine.milone",
+            "displayName": "Carmine Milone",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-16_00:00:00"
+            },
+            "externalId": "carmine.milone@caoamontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "carmine.milone@caoamontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "Financeiro - Key User",
+            "department": "Financeiro"
+        },
+        {
+            "id": "000028",
+            "name": {
+                "formatted": "Claudia Ellen Coelho Santos",
+                "givenName": "Claudia",
+                "familyName": "Ellen Coelho Santos"
+            },
+            "userName": "claudia.santos",
+            "displayName": "Claudia Ellen Coelho Santos",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "claudia.santos@caomontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "claudia.santos@caomontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "Estoque - Key User",
+            "department": "Estoque"
+        },
+        {
+            "id": "000002",
+            "name": {
+                "formatted": "Cloud Prime",
+                "givenName": "Cloud",
+                "familyName": "Prime"
+            },
+            "userName": "cloud-prime",
+            "displayName": "Cloud Prime",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-08-27_00:00:00",
+                "lastModified": "2019-07-15_00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000020",
+            "name": {
+                "formatted": "Cristiano Rodrigues Da Silva",
+                "givenName": "Cristiano",
+                "familyName": "Rodrigues Da Silva"
+            },
+            "userName": "cristiano.silva",
+            "displayName": "Cristiano Rodrigues Da Silva",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "cristiano.silva@caomontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "cristiano.silva@caomontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": false,
+            "groups": [],
+            "roles": [],
+            "title": "Manuten��o de Ativos - Key User",
+            "department": "Manuten��o de Ativos"
+        },
+        {
+            "id": "000012",
+            "name": {
+                "formatted": "DANILO DE SOUZA",
+                "givenName": "DANILO",
+                "familyName": "DE SOUZA"
+            },
+            "userName": "DANILO.DSOUZA",
+            "displayName": "DANILO DE SOUZA",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-01_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "danilo.dsouza@caoa.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "danilo.dsouza@caoa.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "Adminstrador de Sistemas",
+            "department": "T.I"
+        },
+        {
+            "id": "000057",
+            "name": {
+                "formatted": "DEBORAH FLORENTINO PEREIRA",
+                "givenName": "DEBORAH",
+                "familyName": "FLORENTINO PEREIRA"
+            },
+            "userName": "deborah.pereira",
+            "displayName": "DEBORAH FLORENTINO PEREIRA",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "deborah.pereira@caoamontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "deborah.pereira@caoamontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "Estoque - Key User",
+            "department": "Estoque"
+        },
+        {
+            "id": "000142",
+            "name": {
+                "formatted": "DOUGLAS CARLOS DA SILVA",
+                "givenName": "DOUGLAS",
+                "familyName": "CARLOS DA SILVA"
+            },
+            "userName": "douglas.silva",
+            "displayName": "DOUGLAS CARLOS DA SILVA",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-13_00:00:00",
+                "lastModified": "    -  -  _00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000005",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000005",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000133",
+            "name": {
+                "formatted": "Deise Silva Araujo",
+                "givenName": "Deise",
+                "familyName": "Silva Araujo"
+            },
+            "userName": "deise.araujo",
+            "displayName": "Deise Silva Araujo",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-13_00:00:00",
+                "lastModified": "2019-05-13_00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000131",
+            "name": {
+                "formatted": "Denis Galvani",
+                "givenName": "Denis",
+                "familyName": "Galvani"
+            },
+            "userName": "denis.galvani",
+            "displayName": "Denis Galvani",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-06-11_00:00:00",
+                "lastModified": "2019-10-30_00:00:00"
+            },
+            "externalId": "denis.galvani@caoa.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "denis.galvani@caoa.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": "TI"
+        },
+        {
+            "id": "000136",
+            "name": {
+                "formatted": "Diego Alves de Morais",
+                "givenName": "Diego",
+                "familyName": "Alves de Morais"
+            },
+            "userName": "diego.amorais",
+            "displayName": "Diego Alves de Morais",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-13_00:00:00",
+                "lastModified": "2019-05-28_00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000021",
+            "name": {
+                "formatted": "Dion Carlos Gontijo Branquinho",
+                "givenName": "Dion",
+                "familyName": "Carlos Gontijo Branquinho"
+            },
+            "userName": "dion.branquinho",
+            "displayName": "Dion Carlos Gontijo Branquinho",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "dion.branquinho@caoamontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "dion.branquinho@caoamontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "Manuten��o de Ativos - Key User",
+            "department": "Manuten��o de Ativos"
+        },
+        {
+            "id": "000164",
+            "name": {
+                "formatted": "Diretor Compras",
+                "givenName": "Diretor",
+                "familyName": "Compras"
+            },
+            "userName": "diretor.compras",
+            "displayName": "Diretor Compras",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-13_00:00:00",
+                "lastModified": "2019-05-13_00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000017",
+            "name": {
+                "formatted": "Douglas Niculas Couto Martins",
+                "givenName": "Douglas",
+                "familyName": "Niculas Couto Martins"
+            },
+            "userName": "douglas.martins",
+            "displayName": "Douglas Niculas Couto Martins",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-01_00:00:00",
+                "lastModified": "2019-08-19_00:00:00"
+            },
+            "externalId": "douglas.martins@caoamontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "douglas.martins@caoamontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "Adminstrador de Sistemas",
+            "department": "T.I"
+        },
+        {
+            "id": "000058",
+            "name": {
+                "formatted": "EDINALVA DA SILVA PEREIRA",
+                "givenName": "EDINALVA",
+                "familyName": "DA SILVA PEREIRA"
+            },
+            "userName": "edinalva.pereira",
+            "displayName": "EDINALVA DA SILVA PEREIRA",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-13_00:00:00"
+            },
+            "externalId": "edinalva.pereira@caoamontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "edinalva.pereira@caoamontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "Estoque  - Key User",
+            "department": "Estoque"
+        },
+        {
+            "id": "000147",
+            "name": {
+                "formatted": "ELIAS PEREIRA DE SOUZA FILHO",
+                "givenName": "ELIAS",
+                "familyName": "PEREIRA DE SOUZA FILHO"
+            },
+            "userName": "elias.filho",
+            "displayName": "ELIAS PEREIRA DE SOUZA FILHO",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-13_00:00:00",
+                "lastModified": "    -  -  _00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000005",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000005",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000037",
+            "name": {
+                "formatted": "Elaine Cristina Rodrigues Vieira Dos San",
+                "givenName": "Elaine",
+                "familyName": "Cristina Rodrigues Vieira Dos San"
+            },
+            "userName": "elaine.vieira",
+            "displayName": "Elaine Cristina Rodrigues Vieira Dos San",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-13_00:00:00"
+            },
+            "externalId": "elaine.vieira@caoa.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "elaine.vieira@caoa.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "Importa��o - Key User",
+            "department": "Importa��o"
+        },
+        {
+            "id": "000124",
+            "name": {
+                "formatted": "Eugenio Arcanjo",
+                "givenName": "Eugenio",
+                "familyName": "Arcanjo"
+            },
+            "userName": "TOTVS-EUGENIO",
+            "displayName": "Eugenio Arcanjo",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-10-09_00:00:00",
+                "lastModified": "2019-08-13_00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000187",
+            "name": {
+                "formatted": "Evandro A Mariano dos Santos",
+                "givenName": "Evandro",
+                "familyName": "A Mariano dos Santos"
+            },
+            "userName": "evandro.mariano",
+            "displayName": "Evandro A Mariano dos Santos",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-06-11_00:00:00",
+                "lastModified": "2019-09-17_00:00:00"
+            },
+            "externalId": "evandro.mariano@caoa.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "evandro.mariano@caoa.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": "TI"
+        },
+        {
+            "id": "000009",
+            "name": {
+                "formatted": "FABIO GIACOMOZZI",
+                "givenName": "FABIO",
+                "familyName": "GIACOMOZZI"
+            },
+            "userName": "FABIO.GIACOMOZZI",
+            "displayName": "FABIO GIACOMOZZI",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-10-09_00:00:00",
+                "lastModified": "2019-05-13_00:00:00"
+            },
+            "externalId": "FABIO@caoa.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "FABIO@caoa.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000071",
+            "name": {
+                "formatted": "FRANCISCO DE ASSIS DA SILVA",
+                "givenName": "FRANCISCO",
+                "familyName": "DE ASSIS DA SILVA"
+            },
+            "userName": "TOTVS-FASILVA",
+            "displayName": "FRANCISCO DE ASSIS DA SILVA",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-10-10_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "marcela.leal@totvs.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "marcela.leal@totvs.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000054",
+            "name": {
+                "formatted": "FULGENCIO",
+                "givenName": "FULGENCIO",
+                "familyName": "."
+            },
+            "userName": "TOTVS-FULGENCIO",
+            "displayName": "FULGENCIO",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-10-09_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "fulgencio.filho@totvspartners.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "fulgencio.filho@totvspartners.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000022",
+            "name": {
+                "formatted": "Fabricio Martins Fernandes",
+                "givenName": "Fabricio",
+                "familyName": "Martins Fernandes"
+            },
+            "userName": "fabricio.fernandes",
+            "displayName": "Fabricio Martins Fernandes",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-13_00:00:00"
+            },
+            "externalId": "fabricio.fernandes@caoamontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "fabricio.fernandes@caoamontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "Manuten��o de Ativos | Estoque - Key Use",
+            "department": "Manuten��o de Ativos | Estoque"
+        },
+        {
+            "id": "000053",
+            "name": {
+                "formatted": "Fernando Aparecido Custodio Teixeira",
+                "givenName": "Fernando",
+                "familyName": "Aparecido Custodio Teixeira"
+            },
+            "userName": "fernando.teixeira",
+            "displayName": "Fernando Aparecido Custodio Teixeira",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-13_00:00:00"
+            },
+            "externalId": "fernando.teixeira@caoamontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "fernando.teixeira@caoamontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "",
+            "department": "Planej. Gest�o | Acesso Contabilidade"
+        },
+        {
+            "id": "000013",
+            "name": {
+                "formatted": "Fiscal Teste",
+                "givenName": "Fiscal",
+                "familyName": "Teste"
+            },
+            "userName": "Fiscal",
+            "displayName": "Fiscal Teste",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-01_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000004",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000004",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000029",
+            "name": {
+                "formatted": "Flavio Silvestre Caetano",
+                "givenName": "Flavio",
+                "familyName": "Silvestre Caetano"
+            },
+            "userName": "flavio.caetano",
+            "displayName": "Flavio Silvestre Caetano",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-17_00:00:00"
+            },
+            "externalId": "flavio.caetano@caoamontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "flavio.caetano@caoamontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": false,
+            "groups": [],
+            "roles": [],
+            "title": "Estoque Key User",
+            "department": "Estoque"
+        },
+        {
+            "id": "000049",
+            "name": {
+                "formatted": "GERALDO MANGINI",
+                "givenName": "GERALDO",
+                "familyName": "MANGINI"
+            },
+            "userName": "TOTVS-GERALDO",
+            "displayName": "GERALDO MANGINI",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-26_00:00:00",
+                "lastModified": "2019-07-24_00:00:00"
+            },
+            "externalId": "geraldo.mangini@totvs.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "geraldo.mangini@totvs.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000003",
+            "name": {
+                "formatted": "GUELDER A SANTOS",
+                "givenName": "GUELDER",
+                "familyName": "A SANTOS"
+            },
+            "userName": "TOTVS.GUELDER",
+            "displayName": "GUELDER A SANTOS",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-10-09_00:00:00",
+                "lastModified": "2019-08-13_00:00:00"
+            },
+            "externalId": "guelder.santos@ethosx.com",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "guelder.santos@ethosx.com",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000080",
+            "name": {
+                "formatted": "GUSTAVO TOTVS",
+                "givenName": "GUSTAVO",
+                "familyName": "TOTVS"
+            },
+            "userName": "TOTVS-GUSTAVO",
+            "displayName": "GUSTAVO TOTVS",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-04-09_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000166",
+            "name": {
+                "formatted": "Georgina Alcantara Ribeiro",
+                "givenName": "Georgina",
+                "familyName": "Alcantara Ribeiro"
+            },
+            "userName": "georgina.ribeiro",
+            "displayName": "Georgina Alcantara Ribeiro",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-14_00:00:00",
+                "lastModified": "2019-05-15_00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000006",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000006",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000163",
+            "name": {
+                "formatted": "Gerente Compras Nao Produtivas",
+                "givenName": "Gerente",
+                "familyName": "Compras Nao Produtivas"
+            },
+            "userName": "gerente.nprodutiva",
+            "displayName": "Gerente Compras Nao Produtivas",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-13_00:00:00",
+                "lastModified": "2019-05-13_00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000161",
+            "name": {
+                "formatted": "Gerente Compras Produtivas",
+                "givenName": "Gerente",
+                "familyName": "Compras Produtivas"
+            },
+            "userName": "gerente.produtiva",
+            "displayName": "Gerente Compras Produtivas",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-13_00:00:00",
+                "lastModified": "2019-05-13_00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000010",
+            "name": {
+                "formatted": "Gerson da Gra�a",
+                "givenName": "Gerson",
+                "familyName": "da Gra�a"
+            },
+            "userName": "TOTVS-GERSON",
+            "displayName": "Gerson da Gra�a",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-10-26_00:00:00",
+                "lastModified": "2019-08-26_00:00:00"
+            },
+            "externalId": "gerson.graca@totvs.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "gerson.graca@totvs.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000023",
+            "name": {
+                "formatted": "Glaucia Cardoso De Melo",
+                "givenName": "Glaucia",
+                "familyName": "Cardoso De Melo"
+            },
+            "userName": "glaucia.melo",
+            "displayName": "Glaucia Cardoso De Melo",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-14_00:00:00"
+            },
+            "externalId": "glaucia.melo@caoamontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "glaucia.melo@caoamontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "Manuten��o de Ativos - Key User",
+            "department": "Manuten��o de Ativos"
+        },
+        {
+            "id": "000143",
+            "name": {
+                "formatted": "HELIO JOSE CARDOSO",
+                "givenName": "HELIO",
+                "familyName": "JOSE CARDOSO"
+            },
+            "userName": "helio.cardoso",
+            "displayName": "HELIO JOSE CARDOSO",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-13_00:00:00",
+                "lastModified": "    -  -  _00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000005",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000005",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000144",
+            "name": {
+                "formatted": "HERBERT HAKKNEN DA CUNHA",
+                "givenName": "HERBERT",
+                "familyName": "HAKKNEN DA CUNHA"
+            },
+            "userName": "herbert.cunha",
+            "displayName": "HERBERT HAKKNEN DA CUNHA",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-13_00:00:00",
+                "lastModified": "    -  -  _00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000005",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000005",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000185",
+            "name": {
+                "formatted": "Heber dos Santos",
+                "givenName": "Heber",
+                "familyName": "dos Santos"
+            },
+            "userName": "heber.santos",
+            "displayName": "Heber dos Santos",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-22_00:00:00",
+                "lastModified": "    -  -  _00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000036",
+            "name": {
+                "formatted": "Helvio Carvalho De Campos",
+                "givenName": "Helvio",
+                "familyName": "Carvalho De Campos"
+            },
+            "userName": "helvio.campos",
+            "displayName": "Helvio Carvalho De Campos",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "helvio.campos@caoa.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "helvio.campos@caoa.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "Financeiro - Key User",
+            "department": "Financeiro"
+        },
+        {
+            "id": "000183",
+            "name": {
+                "formatted": "Infra estrutura da CAOA (test user)",
+                "givenName": "Infra",
+                "familyName": "estrutura da CAOA (test user)"
+            },
+            "userName": "INFRA-CAOA",
+            "displayName": "Infra estrutura da CAOA (test user)",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-20_00:00:00",
+                "lastModified": "    -  -  _00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000129",
+            "name": {
+                "formatted": "Jackson Lima",
+                "givenName": "Jackson",
+                "familyName": "Lima"
+            },
+            "userName": "TOTVS.JACKSON",
+            "displayName": "Jackson Lima",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-23_00:00:00",
+                "lastModified": "2019-05-09_00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000043",
+            "name": {
+                "formatted": "Josimara Furlam Pereira",
+                "givenName": "Josimara",
+                "familyName": "Furlam Pereira"
+            },
+            "userName": "josimara.pereira",
+            "displayName": "Josimara Furlam Pereira",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "josyfurlam@caoa.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "josyfurlam@caoa.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "Financeiro - Key User",
+            "department": "Financeiro"
+        },
+        {
+            "id": "000024",
+            "name": {
+                "formatted": "Josualdo Matussal�m Mendes Da Rocha",
+                "givenName": "Josualdo",
+                "familyName": "Matussal�m Mendes Da Rocha"
+            },
+            "userName": "josualdo.rocha",
+            "displayName": "Josualdo Matussal�m Mendes Da Rocha",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "josualdo.rocha@caoamontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "josualdo.rocha@caoamontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": false,
+            "groups": [],
+            "roles": [],
+            "title": "Manuten��o de Ativos - Key User",
+            "department": "Manuten��o de Ativos"
+        },
+        {
+            "id": "000015",
+            "name": {
+                "formatted": "Julia Christina de Alcantara",
+                "givenName": "Julia",
+                "familyName": "Christina de Alcantara"
+            },
+            "userName": "julia.alcantara",
+            "displayName": "Julia Christina de Alcantara",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-01_00:00:00",
+                "lastModified": "2019-08-28_00:00:00"
+            },
+            "externalId": "julia.alcantara@caoamontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "julia.alcantara@caoamontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "Adminstrador de Sistemas",
+            "department": "T.I"
+        },
+        {
+            "id": "000038",
+            "name": {
+                "formatted": "Kamila Giacon Viol",
+                "givenName": "Kamila",
+                "familyName": "Giacon Viol"
+            },
+            "userName": "kamila.viol",
+            "displayName": "Kamila Giacon Viol",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-23_00:00:00"
+            },
+            "externalId": "kamila.viol@caoamontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "kamila.viol@caoamontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "Importa��o - Key User",
+            "department": "Importa��o"
+        },
+        {
+            "id": "000138",
+            "name": {
+                "formatted": "Karla Tatiane Zorzam Brito",
+                "givenName": "Karla",
+                "familyName": "Tatiane Zorzam Brito"
+            },
+            "userName": "karla.brito",
+            "displayName": "Karla Tatiane Zorzam Brito",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-13_00:00:00",
+                "lastModified": "2019-05-31_00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000059",
+            "name": {
+                "formatted": "LEONCIO ALVES RODRIGUES",
+                "givenName": "LEONCIO",
+                "familyName": "ALVES RODRIGUES"
+            },
+            "userName": "leoncio.rodrigues",
+            "displayName": "LEONCIO ALVES RODRIGUES",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "leoncio.rodrigues@caoamontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "leoncio.rodrigues@caoamontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "PCP Key User",
+            "department": "PCP"
+        },
+        {
+            "id": "000060",
+            "name": {
+                "formatted": "LUANNA FLORENCIO DE ARAUJO",
+                "givenName": "LUANNA",
+                "familyName": "FLORENCIO DE ARAUJO"
+            },
+            "userName": "luana.araujo",
+            "displayName": "LUANNA FLORENCIO DE ARAUJO",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-09-02_00:00:00"
+            },
+            "externalId": "luana.araujo@caoamontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "luana.araujo@caoamontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000003",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000003",
+                    "display": ""
+                }
+            ],
+            "title": "Fiscal - Key user",
+            "department": "Fiscal"
+        },
+        {
+            "id": "000154",
+            "name": {
+                "formatted": "Lidyane Duque Almeida",
+                "givenName": "Lidyane",
+                "familyName": "Duque Almeida"
+            },
+            "userName": "lidyane.almeida",
+            "displayName": "Lidyane Duque Almeida",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-13_00:00:00",
+                "lastModified": "2019-06-06_00:00:00"
+            },
+            "externalId": "lidyane.almeida@caoamontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "lidyane.almeida@caoamontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000139",
+            "name": {
+                "formatted": "Luise Fernanda da Silva Rosa",
+                "givenName": "Luise",
+                "familyName": "Fernanda da Silva Rosa"
+            },
+            "userName": "luise.rosa",
+            "displayName": "Luise Fernanda da Silva Rosa",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-13_00:00:00",
+                "lastModified": "2019-05-27_00:00:00"
+            },
+            "externalId": "luise.rosa@caoamontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "luise.rosa@caoamontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000181",
+            "name": {
+                "formatted": "Lunara Carvalho",
+                "givenName": "Lunara",
+                "familyName": "Carvalho"
+            },
+            "userName": "lunara.carvalho",
+            "displayName": "Lunara Carvalho",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-20_00:00:00"
+            },
+            "externalId": "lunara.carvalho@caoamontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "lunara.carvalho@caoamontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "Estoque Key User",
+            "department": "Estoque"
+        },
+        {
+            "id": "000184",
+            "name": {
+                "formatted": "Lutz Carlos",
+                "givenName": "Lutz",
+                "familyName": "Carlos"
+            },
+            "userName": "TOTVS-LUTZ",
+            "displayName": "Lutz Carlos",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-10-09_00:00:00",
+                "lastModified": "2019-05-22_00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000055",
+            "name": {
+                "formatted": "MAIARA SCHU",
+                "givenName": "MAIARA",
+                "familyName": "SCHU"
+            },
+            "userName": "TOTVS-MAIARA",
+            "displayName": "MAIARA SCHU",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-10-09_00:00:00",
+                "lastModified": "2019-05-10_00:00:00"
+            },
+            "externalId": "maiara.schu@totvs.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "maiara.schu@totvs.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": "totvs"
+        },
+        {
+            "id": "000004",
+            "name": {
+                "formatted": "MARCELA LEAL",
+                "givenName": "MARCELA",
+                "familyName": "LEAL"
+            },
+            "userName": "TOTVS-MARCELA",
+            "displayName": "MARCELA LEAL",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-10-10_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "marcela.leal@totvs.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "marcela.leal@totvs.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000007",
+            "name": {
+                "formatted": "MARCIA CABRINI",
+                "givenName": "MARCIA",
+                "familyName": "CABRINI"
+            },
+            "userName": "TOTVS-MARCIA",
+            "displayName": "MARCIA CABRINI",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-10-10_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "mcabrini@totvs.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "mcabrini@totvs.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000061",
+            "name": {
+                "formatted": "MARCUS ALEXANDRE LOUZA NASCIMENTO",
+                "givenName": "MARCUS",
+                "familyName": "ALEXANDRE LOUZA NASCIMENTO"
+            },
+            "userName": "marcus.nascimento",
+            "displayName": "MARCUS ALEXANDRE LOUZA NASCIMENTO",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-13_00:00:00"
+            },
+            "externalId": "marcus.nascimento@caoamontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "marcus.nascimento@caoamontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "WMS  - Key User",
+            "department": "WMS"
+        },
+        {
+            "id": "000127",
+            "name": {
+                "formatted": "MAURICIO GRESELE",
+                "givenName": "MAURICIO",
+                "familyName": "GRESELE"
+            },
+            "userName": "TOTVS.MAURICIO",
+            "displayName": "MAURICIO GRESELE",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-10-10_00:00:00",
+                "lastModified": "2019-09-03_00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000039",
+            "name": {
+                "formatted": "Marcela Martins Anselmo",
+                "givenName": "Marcela",
+                "familyName": "Martins Anselmo"
+            },
+            "userName": "marcela.martins",
+            "displayName": "Marcela Martins Anselmo",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "marcela.martins@caoa.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "marcela.martins@caoa.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "Importa��o - Key User",
+            "department": "Importa��o"
+        },
+        {
+            "id": "000156",
+            "name": {
+                "formatted": "Marcella Regina Silva",
+                "givenName": "Marcella",
+                "familyName": "Regina Silva"
+            },
+            "userName": "marcella.silva",
+            "displayName": "Marcella Regina Silva",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-13_00:00:00",
+                "lastModified": "    -  -  _00:00:00"
+            },
+            "externalId": "marcella.regina@subaru.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "marcella.regina@subaru.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000193",
+            "name": {
+                "formatted": "Marcelo Carneiro",
+                "givenName": "Marcelo",
+                "familyName": "Carneiro"
+            },
+            "userName": "TOTVS-CARNEIRO",
+            "displayName": "Marcelo Carneiro",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-13_00:00:00",
+                "lastModified": "2019-06-14_00:00:00"
+            },
+            "externalId": "marcelo.carneiro@totvs.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "marcelo.carneiro@totvs.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "ANALISTA",
+            "department": "TI"
+        },
+        {
+            "id": "000140",
+            "name": {
+                "formatted": "Marcelo Carneiro",
+                "givenName": "Marcelo",
+                "familyName": "Carneiro"
+            },
+            "userName": "TOTVS-MARCELO",
+            "displayName": "Marcelo Carneiro",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-13_00:00:00",
+                "lastModified": "2019-08-15_00:00:00"
+            },
+            "externalId": "marcelo.carneiro@totvs.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "marcelo.carneiro@totvs.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "ANALISTA",
+            "department": "TI"
+        },
+        {
+            "id": "000168",
+            "name": {
+                "formatted": "Marcelo Moreira Borges",
+                "givenName": "Marcelo",
+                "familyName": "Moreira Borges"
+            },
+            "userName": "marcelo.borges",
+            "displayName": "Marcelo Moreira Borges",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-14_00:00:00",
+                "lastModified": "2019-05-22_00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000006",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000006",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000155",
+            "name": {
+                "formatted": "Marcia Regina Alferes Rodrigues",
+                "givenName": "Marcia",
+                "familyName": "Regina Alferes Rodrigues"
+            },
+            "userName": "marcia.rodrigues",
+            "displayName": "Marcia Regina Alferes Rodrigues",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-13_00:00:00",
+                "lastModified": "2019-05-13_00:00:00"
+            },
+            "externalId": "marcia.rodrigues@caoamontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "marcia.rodrigues@caoamontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000126",
+            "name": {
+                "formatted": "Marcos Correa",
+                "givenName": "Marcos",
+                "familyName": "Correa"
+            },
+            "userName": "TOTVS-MARCOS",
+            "displayName": "Marcos Correa",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-10-09_00:00:00",
+                "lastModified": "2019-05-07_00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000030",
+            "name": {
+                "formatted": "Marina Pereira Lobo",
+                "givenName": "Marina",
+                "familyName": "Pereira Lobo"
+            },
+            "userName": "marina.lobo",
+            "displayName": "Marina Pereira Lobo",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-13_00:00:00"
+            },
+            "externalId": "marina.lobo@caoamontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "marina.lobo@caoamontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "Estoque | Compras Key User",
+            "department": "Estoque | Compras",
+            "manager": [
+                {
+                    "managerId": "000066",
+                    "displayName": ""
+                }
+            ]
+        },
+        {
+            "id": "000051",
+            "name": {
+                "formatted": "Mauro Francisco Batista",
+                "givenName": "Mauro",
+                "familyName": "Francisco Batista"
+            },
+            "userName": "mauro.batista",
+            "displayName": "Mauro Francisco Batista",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "mauro.batista@caoa.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "mauro.batista@caoa.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "Contabilidade - Key User",
+            "department": "Contabilidade"
+        },
+        {
+            "id": "000031",
+            "name": {
+                "formatted": "Miria Cristina Pereira Feliciano",
+                "givenName": "Miria",
+                "familyName": "Cristina Pereira Feliciano"
+            },
+            "userName": "miria.feliciano",
+            "displayName": "Miria Cristina Pereira Feliciano",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-13_00:00:00"
+            },
+            "externalId": "miria.feliciano@caoamontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "miria.feliciano@caoamontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "Estoque Key User",
+            "department": "Estoque"
+        },
+        {
+            "id": "000062",
+            "name": {
+                "formatted": "NAMESIO FERREIRA CARDOSO JUNIOR",
+                "givenName": "NAMESIO",
+                "familyName": "FERREIRA CARDOSO JUNIOR"
+            },
+            "userName": "namesio.junior",
+            "displayName": "NAMESIO FERREIRA CARDOSO JUNIOR",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-31_00:00:00"
+            },
+            "externalId": "namesio.junior@caoamontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "namesio.junior@caoamontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "GFE - Key User",
+            "department": "GFE"
+        },
+        {
+            "id": "000016",
+            "name": {
+                "formatted": "Nata Rossi Milhomem",
+                "givenName": "Nata",
+                "familyName": "Rossi Milhomem"
+            },
+            "userName": "nata.milhomem",
+            "displayName": "Nata Rossi Milhomem",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-01_00:00:00",
+                "lastModified": "2019-05-17_00:00:00"
+            },
+            "externalId": "nata.milhomem@caoamontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "nata.milhomem@caoamontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "Adminstrador de Sistemas",
+            "department": "T.I"
+        },
+        {
+            "id": "000169",
+            "name": {
+                "formatted": "Nayara Alves",
+                "givenName": "Nayara",
+                "familyName": "Alves"
+            },
+            "userName": "nayara.alves",
+            "displayName": "Nayara Alves",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-14_00:00:00",
+                "lastModified": "    -  -  _00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000006",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000006",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000064",
+            "name": {
+                "formatted": "Paula Lima Martins",
+                "givenName": "Paula",
+                "familyName": "Lima Martins"
+            },
+            "userName": "paula.martins",
+            "displayName": "Paula Lima Martins",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-06-06_00:00:00"
+            },
+            "externalId": "paula.lima@caoa.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "paula.lima@caoa.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "Contabilidade - Key User",
+            "department": "Contabilidade"
+        },
+        {
+            "id": "000006",
+            "name": {
+                "formatted": "RAPHAEL SILVEIRA",
+                "givenName": "RAPHAEL",
+                "familyName": "SILVEIRA"
+            },
+            "userName": "TOTVS-RAPHAEL",
+            "displayName": "RAPHAEL SILVEIRA",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-10-10_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "raphael.silveira@totvs.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "raphael.silveira@totvs.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000149",
+            "name": {
+                "formatted": "RG01",
+                "givenName": "RG01",
+                "familyName": "."
+            },
+            "userName": "RG01",
+            "displayName": "RG01",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-13_00:00:00",
+                "lastModified": "    -  -  _00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000005",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000005",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000150",
+            "name": {
+                "formatted": "RG02",
+                "givenName": "RG02",
+                "familyName": "."
+            },
+            "userName": "RG02",
+            "displayName": "RG02",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-13_00:00:00",
+                "lastModified": "    -  -  _00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000005",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000005",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000151",
+            "name": {
+                "formatted": "RG03",
+                "givenName": "RG03",
+                "familyName": "."
+            },
+            "userName": "RG03",
+            "displayName": "RG03",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-13_00:00:00",
+                "lastModified": "    -  -  _00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000005",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000005",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000152",
+            "name": {
+                "formatted": "RG04",
+                "givenName": "RG04",
+                "familyName": "."
+            },
+            "userName": "RG04",
+            "displayName": "RG04",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-13_00:00:00",
+                "lastModified": "    -  -  _00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000005",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000005",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000153",
+            "name": {
+                "formatted": "RG05",
+                "givenName": "RG05",
+                "familyName": "."
+            },
+            "userName": "RG05",
+            "displayName": "RG05",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-13_00:00:00",
+                "lastModified": "    -  -  _00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000005",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000005",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000011",
+            "name": {
+                "formatted": "RODRIGO SANTOS",
+                "givenName": "RODRIGO",
+                "familyName": "SANTOS"
+            },
+            "userName": "TOTVS-RSANTOS",
+            "displayName": "RODRIGO SANTOS",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-10-10_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "rodrigo.dossantos@totvspartners.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "rodrigo.dossantos@totvspartners.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000135",
+            "name": {
+                "formatted": "RUBENS SANTOS DE OLIVEIRA",
+                "givenName": "RUBENS",
+                "familyName": "SANTOS DE OLIVEIRA"
+            },
+            "userName": "rubens.oliveira",
+            "displayName": "RUBENS SANTOS DE OLIVEIRA",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-13_00:00:00",
+                "lastModified": "2019-05-13_00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000194",
+            "name": {
+                "formatted": "Rafael Griggio",
+                "givenName": "Rafael",
+                "familyName": "Griggio"
+            },
+            "userName": "rafael.griggio",
+            "displayName": "Rafael Griggio",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-06-24_00:00:00",
+                "lastModified": "2019-06-24_00:00:00"
+            },
+            "externalId": "rafael.griggio@caoa.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "rafael.griggio@caoa.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": "TI"
+        },
+        {
+            "id": "000040",
+            "name": {
+                "formatted": "Rafael Tinoco",
+                "givenName": "Rafael",
+                "familyName": "Tinoco"
+            },
+            "userName": "rafael.tinoco",
+            "displayName": "Rafael Tinoco",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-07-11_00:00:00"
+            },
+            "externalId": "rafael.tinoco@caoa.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "rafael.tinoco@caoa.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "Importa��o - Key User",
+            "department": "Importa��o"
+        },
+        {
+            "id": "000048",
+            "name": {
+                "formatted": "Renato Garcia Mariano",
+                "givenName": "Renato",
+                "familyName": "Garcia Mariano"
+            },
+            "userName": "renato.mariano",
+            "displayName": "Renato Garcia Mariano",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-01_00:00:00",
+                "lastModified": "2019-08-07_00:00:00"
+            },
+            "externalId": "renato.mariano@caoamontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "renato.mariano@caoamontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "Adminstrador de Sistemas",
+            "department": "T.I"
+        },
+        {
+            "id": "000041",
+            "name": {
+                "formatted": "Rhaja Dayane Rodrigues Bregant",
+                "givenName": "Rhaja",
+                "familyName": "Dayane Rodrigues Bregant"
+            },
+            "userName": "rhaja.bregant",
+            "displayName": "Rhaja Dayane Rodrigues Bregant",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "rhaja.bregant@caoamontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "rhaja.bregant@caoamontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "Importa��o - Key User",
+            "department": "Importa��o"
+        },
+        {
+            "id": "000188",
+            "name": {
+                "formatted": "Romulo Francisco Queiroz",
+                "givenName": "Romulo",
+                "familyName": "Francisco Queiroz"
+            },
+            "userName": "romulo.queiroz",
+            "displayName": "Romulo Francisco Queiroz",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-13_00:00:00",
+                "lastModified": "2019-06-13_00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000044",
+            "name": {
+                "formatted": "Rubilene Dos Santos Silva",
+                "givenName": "Rubilene",
+                "familyName": "Dos Santos Silva"
+            },
+            "userName": "rubilene.silva",
+            "displayName": "Rubilene Dos Santos Silva",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "rubilene@caoa.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "rubilene@caoa.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "Financeiro - Key User",
+            "department": "Financeiro"
+        },
+        {
+            "id": "000069",
+            "name": {
+                "formatted": "SANDRO SILVA",
+                "givenName": "SANDRO",
+                "familyName": "SILVA"
+            },
+            "userName": "TOTVS-SILVA",
+            "displayName": "SANDRO SILVA",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-10-10_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "sandro.silva@ez4.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "sandro.silva@ez4.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": "totvs"
+        },
+        {
+            "id": "000047",
+            "name": {
+                "formatted": "SUPORTE TOTVS",
+                "givenName": "SUPORTE",
+                "familyName": "TOTVS"
+            },
+            "userName": "TOTVS-SUPORTE",
+            "displayName": "SUPORTE TOTVS",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-01_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "danilo.dsouza@caoa.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "danilo.dsouza@caoa.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "Suporte Totvs",
+            "department": "T.I"
+        },
+        {
+            "id": "000170",
+            "name": {
+                "formatted": "Samanta Macedo",
+                "givenName": "Samanta",
+                "familyName": "Macedo"
+            },
+            "userName": "samanta.macedo",
+            "displayName": "Samanta Macedo",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-14_00:00:00",
+                "lastModified": "2019-05-14_00:00:00"
+            },
+            "externalId": "samanta.macedo@caoa.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "samanta.macedo@caoa.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000182",
+            "name": {
+                "formatted": "Silvana Gois",
+                "givenName": "Silvana",
+                "familyName": "Gois"
+            },
+            "userName": "silvana.gois",
+            "displayName": "Silvana Gois",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-20_00:00:00"
+            },
+            "externalId": "silvana.gois@caoamontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "silvana.gois@caoamontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000003",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000003",
+                    "display": ""
+                }
+            ],
+            "title": "Fiscal",
+            "department": "Fiscal"
+        },
+        {
+            "id": "000134",
+            "name": {
+                "formatted": "Silvio Bernado da Silva Junior",
+                "givenName": "Silvio",
+                "familyName": "Bernado da Silva Junior"
+            },
+            "userName": "silvio.junior",
+            "displayName": "Silvio Bernado da Silva Junior",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-13_00:00:00",
+                "lastModified": "2019-05-13_00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000167",
+            "name": {
+                "formatted": "Sinesio Fernandes de Jesus",
+                "givenName": "Sinesio",
+                "familyName": "Fernandes de Jesus"
+            },
+            "userName": "sinesio.jesus",
+            "displayName": "Sinesio Fernandes de Jesus",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-14_00:00:00",
+                "lastModified": "    -  -  _00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000006",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000006",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000157",
+            "name": {
+                "formatted": "Solicitante Compras Produtivas",
+                "givenName": "Solicitante",
+                "familyName": "Compras Produtivas"
+            },
+            "userName": "solicitante.prod",
+            "displayName": "Solicitante Compras Produtivas",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-13_00:00:00",
+                "lastModified": "2019-05-15_00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000006",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000006",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000158",
+            "name": {
+                "formatted": "Solicitante Nao Produtivas",
+                "givenName": "Solicitante",
+                "familyName": "Nao Produtivas"
+            },
+            "userName": "solicitante.nprod",
+            "displayName": "Solicitante Nao Produtivas",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-13_00:00:00",
+                "lastModified": "2019-05-15_00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000006",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000006",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000083",
+            "name": {
+                "formatted": "TOTVS-ANDERSON",
+                "givenName": "TOTVS-ANDERSON",
+                "familyName": "."
+            },
+            "userName": "TOTVS-ANDERSON",
+            "displayName": "TOTVS-ANDERSON",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-10-09_00:00:00",
+                "lastModified": "2019-08-07_00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000074",
+            "name": {
+                "formatted": "TOTVS-AZEVEDO",
+                "givenName": "TOTVS-AZEVEDO",
+                "familyName": "."
+            },
+            "userName": "TOTVS-AZEVEDO",
+            "displayName": "TOTVS-AZEVEDO",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-10-09_00:00:00",
+                "lastModified": "2019-05-14_00:00:00"
+            },
+            "externalId": "rafael.azevedo@totvs.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "rafael.azevedo@totvs.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": false,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000073",
+            "name": {
+                "formatted": "TOTVS-BARBIERI",
+                "givenName": "TOTVS-BARBIERI",
+                "familyName": "."
+            },
+            "userName": "TOTVS-BARBIERI",
+            "displayName": "TOTVS-BARBIERI",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-10-09_00:00:00",
+                "lastModified": "2019-06-17_00:00:00"
+            },
+            "externalId": "tiago.barbieri@totvs.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "tiago.barbieri@totvs.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000081",
+            "name": {
+                "formatted": "TOTVS-JUAREZ",
+                "givenName": "TOTVS-JUAREZ",
+                "familyName": "."
+            },
+            "userName": "TOTVS-JUAREZ",
+            "displayName": "TOTVS-JUAREZ",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-10-09_00:00:00",
+                "lastModified": "2019-10-23_00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000075",
+            "name": {
+                "formatted": "TOTVS-MELO",
+                "givenName": "TOTVS-MELO",
+                "familyName": "."
+            },
+            "userName": "TOTVS-MELO",
+            "displayName": "TOTVS-MELO",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-10-09_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "rafael.melo@totvs.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "rafael.melo@totvs.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000076",
+            "name": {
+                "formatted": "TOTVS-RODRIGO",
+                "givenName": "TOTVS-RODRIGO",
+                "familyName": "."
+            },
+            "userName": "TOTVS-RODRIGO",
+            "displayName": "TOTVS-RODRIGO",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-10-09_00:00:00",
+                "lastModified": "2019-08-12_00:00:00"
+            },
+            "externalId": "rodrigo.cesar@totvs.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "rodrigo.cesar@totvs.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": "totvs"
+        },
+        {
+            "id": "000077",
+            "name": {
+                "formatted": "TOTVS-SANCHES",
+                "givenName": "TOTVS-SANCHES",
+                "familyName": "."
+            },
+            "userName": "TOTVS-SANCHES",
+            "displayName": "TOTVS-SANCHES",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-10-09_00:00:00",
+                "lastModified": "2019-05-17_00:00:00"
+            },
+            "externalId": "marcelo.sanches@totvspartners.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "marcelo.sanches@totvspartners.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": "totvs"
+        },
+        {
+            "id": "000132",
+            "name": {
+                "formatted": "TOTVS-TAKAHASHI",
+                "givenName": "TOTVS-TAKAHASHI",
+                "familyName": "."
+            },
+            "userName": "TOTVS-TAKAHASHI",
+            "displayName": "TOTVS-TAKAHASHI",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-10-09_00:00:00",
+                "lastModified": "2019-05-10_00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000079",
+            "name": {
+                "formatted": "TOTVS.POLATO",
+                "givenName": "TOTVS.POLATO",
+                "familyName": "."
+            },
+            "userName": "TOTVS.POLATO",
+            "displayName": "TOTVS.POLATO",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-10-09_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000128",
+            "name": {
+                "formatted": "Tarcisio Galeano",
+                "givenName": "Tarcisio",
+                "familyName": "Galeano"
+            },
+            "userName": "TOTVS-TARCISIO",
+            "displayName": "Tarcisio Galeano",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-23_00:00:00",
+                "lastModified": "2019-06-04_00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000025",
+            "name": {
+                "formatted": "Tiago Rocha Faria",
+                "givenName": "Tiago",
+                "familyName": "Rocha Faria"
+            },
+            "userName": "tiago.faria",
+            "displayName": "Tiago Rocha Faria",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "tiago.faria@caoamontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "tiago.faria@caoamontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": false,
+            "groups": [],
+            "roles": [],
+            "title": "Manuten��o de Ativos - Key User",
+            "department": "Manuten��o de Ativos"
+        },
+        {
+            "id": "000137",
+            "name": {
+                "formatted": "Vilker de Sousa Vargas",
+                "givenName": "Vilker",
+                "familyName": "de Sousa Vargas"
+            },
+            "userName": "vilker.vargas",
+            "displayName": "Vilker de Sousa Vargas",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-13_00:00:00",
+                "lastModified": "2019-05-13_00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000000",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000032",
+            "name": {
+                "formatted": "Vinicius Dos Santos Coelho",
+                "givenName": "Vinicius",
+                "familyName": "Dos Santos Coelho"
+            },
+            "userName": "vinicius.coelho",
+            "displayName": "Vinicius Dos Santos Coelho",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "vinicius.coelho@caoamontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "vinicius.coelho@caoamontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "Estoque Key User",
+            "department": "Estoque"
+        },
+        {
+            "id": "000063",
+            "name": {
+                "formatted": "Wagson Felix de Morais",
+                "givenName": "Wagson",
+                "familyName": "Felix de Morais"
+            },
+            "userName": "wagson.morais",
+            "displayName": "Wagson Felix de Morais",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-22_00:00:00"
+            },
+            "externalId": "wagson.morais@caoamontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "wagson.morais@caoamontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "Estoque  - Key User",
+            "department": "Estoque"
+        },
+        {
+            "id": "000026",
+            "name": {
+                "formatted": "Walter Mendes Junior",
+                "givenName": "Walter",
+                "familyName": "Mendes Junior"
+            },
+            "userName": "walter.junior",
+            "displayName": "Walter Mendes Junior",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-09-02_00:00:00"
+            },
+            "externalId": "walter.junior@caoamontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "walter.junior@caoamontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "Manuten��o de Ativos - Key User",
+            "department": "Manuten��o de Ativos"
+        },
+        {
+            "id": "000186",
+            "name": {
+                "formatted": "Wellington Maciel",
+                "givenName": "Wellington",
+                "familyName": "Maciel"
+            },
+            "userName": "wellington.maciel",
+            "displayName": "Wellington Maciel",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-24_00:00:00",
+                "lastModified": "2019-06-06_00:00:00"
+            },
+            "externalId": "wellington.maciel@caoa.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "wellington.maciel@caoa.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000033",
+            "name": {
+                "formatted": "Wesley Fernandes Suguiyama",
+                "givenName": "Wesley",
+                "familyName": "Fernandes Suguiyama"
+            },
+            "userName": "wesley.suguiyama",
+            "displayName": "Wesley Fernandes Suguiyama",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-13_00:00:00"
+            },
+            "externalId": "wesley.suguiyama@caoamontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "wesley.suguiyama@caoamontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "Estoque | Compras  Key User",
+            "department": "Estoque | Compras"
+        },
+        {
+            "id": "000027",
+            "name": {
+                "formatted": "Wesley Jos� Dos Santos",
+                "givenName": "Wesley",
+                "familyName": "Jos� Dos Santos"
+            },
+            "userName": "wesley.santos",
+            "displayName": "Wesley Jos� Dos Santos",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-04_00:00:00"
+            },
+            "externalId": "wesley.santos@caoamontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "wesley.santos@caoamontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": false,
+            "groups": [],
+            "roles": [],
+            "title": "Manuten��o de Ativos - Key User",
+            "department": "Manuten��o de Ativos"
+        },
+        {
+            "id": "000171",
+            "name": {
+                "formatted": "Whenedes Jose da Silva",
+                "givenName": "Whenedes",
+                "familyName": "Jose da Silva"
+            },
+            "userName": "whenedes.silva",
+            "displayName": "Whenedes Jose da Silva",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-14_00:00:00",
+                "lastModified": "2019-05-31_00:00:00"
+            },
+            "externalId": "",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [
+                {
+                    "value": "000006",
+                    "display": ""
+                }
+            ],
+            "roles": [
+                {
+                    "value": "000006",
+                    "display": ""
+                }
+            ],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000165",
+            "name": {
+                "formatted": "Yukie Hirai",
+                "givenName": "Yukie",
+                "familyName": "Hirai"
+            },
+            "userName": "yukie.hirai",
+            "displayName": "Yukie Hirai",
+            "meta": {
+                "resourceType": "User",
+                "created": "2019-05-13_00:00:00",
+                "lastModified": "2019-05-14_00:00:00"
+            },
+            "externalId": "impex@caoamontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "impex@caoamontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "",
+            "department": ""
+        },
+        {
+            "id": "000082",
+            "name": {
+                "formatted": "luciano.nakagawa@caoamontadora.com.br",
+                "givenName": "luciano.nakagawa@caoamontadora.com.br",
+                "familyName": "."
+            },
+            "userName": "luciano.nakagawa",
+            "displayName": "luciano.nakagawa@caoamontadora.com.br",
+            "meta": {
+                "resourceType": "User",
+                "created": "2018-11-07_00:00:00",
+                "lastModified": "2019-05-09_00:00:00"
+            },
+            "externalId": "luciano.nakagawa@caoamontadora.com.br",
+            "phoneNumbers": [],
+            "emails": [
+                {
+                    "value": "luciano.nakagawa@caoamontadora.com.br",
+                    "type": "work",
+                    "primary": true
+                }
+            ],
+            "active": true,
+            "groups": [],
+            "roles": [],
+            "title": "WMS Key User",
+            "department": "WMS"
+        }
+    ]
+}
