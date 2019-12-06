@@ -229,11 +229,12 @@
 								// var dataAll = that.myTable.getData();
 								var dataAll = dataUsers; // BUSCAR DADOS ORIGINAIS/INICIAIS/COMPLETOS // thisTable.getData();
 								var search = dataAll.filter(function(el) {
-									// return el.colleagueName.toUpperCase().indexOf(res.toUpperCase()) >= 0
-									// 	|| el.login.toUpperCase().indexOf(res.toUpperCase()) >= 0
-									// 	|| el.mail.toUpperCase().indexOf(res.toUpperCase()) >= 0;
+									// return el.userName.toUpperCase().indexOf(res.toUpperCase()) >= 0
+									// 	|| el.emails.toUpperCase().indexOf(res.toUpperCase()) >= 0
+									// 	|| el.displayName.toUpperCase().indexOf(res.toUpperCase()) >= 0;
+									// el.emails AS OBJECT ARRAY
 									return el.userName.toUpperCase().indexOf(res.toUpperCase()) >= 0
-										|| el.emails.toUpperCase().indexOf(res.toUpperCase()) >= 0
+										|| el.emails.toString().toUpperCase().indexOf(res.toUpperCase()) >= 0
 										|| el.displayName.toUpperCase().indexOf(res.toUpperCase()) >= 0;
 								});
 								if (search && search.length) {
@@ -296,7 +297,8 @@
 						<td class="fs-txt-center fs-txt-middle">{{active}}</td>
 						<td class="col-md-3 textNoWrap">{{displayName}}</td>
 						<td class="col-md-4">
-							<input type="password" class="form-control" id="userPass_{{userName}}" value="{{password}}" style="min-width:140px;"/>
+							<!-- <input type="password" class="form-control" id="userPass_{{userName}}" value="{{password}}" style="min-width:140px;"/> -->
+							<input type="password" class="form-control" id="userPass___{{id}}" value="{{password}}" style="min-width:140px;"/>
 						</td>
 						<td>{{department}}</td>
 						<td>{{title}}</td>
@@ -307,7 +309,8 @@
 						<td class="fs-txt-center fs-txt-middle">
 							<div class="appSwitcherStyle">
 								<!-- input[type=checkbox][data-import-value={{forceChangePassword}}][data-on-color=warning][data-on-text=SIM][ data-off-text=N&Atilde;O]#changePassUser_{{userName}} -->
-								<input type="checkbox" data-import-value="{{forceChangePassword}}" data-on-color="warning" data-on-text="SIM" data-off-text="N&Atilde;O" id="changePassUser_{{userName}}">
+								<!-- <input type="checkbox" data-import-value="{{forceChangePassword}}" data-on-color="warning" data-on-text="SIM" data-off-text="N&Atilde;O" id="changePassUser_{{userName}}"> -->
+								<input type="checkbox" data-import-value="{{forceChangePassword}}" data-on-color="warning" data-on-text="SIM" data-off-text="N&Atilde;O" id="changePassUser___{{id}}">
 								<!--  VALOR IMPORTADO: "{{forceChangePassword}}"  -->
 							</div>
 						</td>
@@ -389,7 +392,7 @@
 							// dataUsers = objStored;
 							dataTableUsers.reload(objStored, '.tableUserLine');
 
-							fsApplyFields();
+							fsApplyFields(false);
 
 							// ATUALIZAR VALOR DE DADOS INICIAL / ATUAL
 							dataUsers = dataTableUsers.getData();
@@ -458,17 +461,26 @@
 						var fnFindParent = function(managerValue) {
 							var parentIds = [ ];
 							var idOffset  = 001;
-							dataUsers.filter(function(currentValue,index,arr) {
-								// console.log('\t' + index + ':\t'
-								// 	+ 'currentValue{ \'registration\': ' + currentValue['registration'] + ', '
-								// 	+ '\'manager\': ' + currentValue['manager'] + '\t}\t'
-								// 	+ 'this: ' + this + '\t'
-								// 	+ '\t return: ' + (currentValue.manager.indexOf(this))
-								// );
-								if(currentValue.manager.indexOf(this) >= 0) {
-									parentIds.push(index + idOffset);
-								}
-							}, managerValue);
+							if (typeof(managerValue) == 'undefined') {
+								parentIds = idOffset;
+							}
+							else {
+								dataUsers.filter(function(currentValue,index,arr) {
+									// console.log('\t' + index + ':\t'
+									// 	+ 'currentValue{ \'registration\': ' + currentValue['registration'] + ', '
+									// 	+ '\'manager\': ' + currentValue['manager'] + '\t}\t'
+									// 	+ 'this: ' + this + '\t'
+									// 	+ '\t return: ' + (currentValue.manager.indexOf(this))
+									// );
+									// if(currentValue.manager.indexOf(this) >= 0) {
+									if (typeof(currentValue.manager) != 'undefined') { 
+										if ((Array.isArray(this) && currentValue.manager.indexOf(this[0].managerId) >= 0)
+											|| currentValue.manager.indexOf(this) >= 0) {
+											parentIds.push(index + idOffset);
+										}
+									}}
+								}, managerValue);
+							}
 							// fluig Style Guide - Organizational Chart falha array.length maior 1
 							if (parentIds.length > 0) {
 								// 1 - ID padrão maior elemento no organograma
@@ -482,7 +494,7 @@
 								id: (++idx) + idOffset,
 								img: imgThumbUser,
 								name: el.displayName,
-								description: (el.emails + '\n' + el.title),
+								description: (el.emails.toString() + '\n' + el.title),
 								parent: fnFindParent(el.manager)
 							};
 							orgUsers.push( orgItemData );

@@ -6,10 +6,17 @@ if (window.File && window.FileReader && window.FileList && window.Blob) {
 		//ARQUIVO CSV ".type" IGUAL "application/vnd.ms-excel"
 		//ARQUIVO TEXT ".type" IGUAL "text/plain"
 		//ARQUIVO XML ".type" IGUAL "text/xml"
+		//ARQUIVO JSON ".type" IGUAL "application/json"
 		// var fileExtension = '/text.*/';
-		var fileTypes = '((text\\/plain)|(application.+(excel)?)|(xml)).*';
+		// var fileTypes = '((text\\/plain)|(application.+(excel)?)|(xml)).*';
+		var fileTypes = '((text\\/plain)|(application.+(json|excel)?)|(xml)).*';
+		// var fileTypes = 'text|csv|xml|json|excel'; // SIMPLE
 		//Get the file object
 		var fileTobeRead = fileSelected.files[0];
+
+		if (dataTableUsers['showLoading']) {
+			dataTableUsers.showLoading();
+		} 
 
 		//Check of the extension match
 		//ARQUIVO EXTENSAO DESCONHECIDA RETORNA "type" VAZIO
@@ -35,6 +42,137 @@ if (window.File && window.FileReader && window.FileList && window.Blob) {
 				infoAlertHtml += '\n	<strong>Dados dispon&iacute;veis:</strong> ';
 				infoAlertHtml += '\n	${infoData} ';
 				infoAlertHtml += '\n</div>';
+
+				// LEITURA ARQUIVO JSON
+				if (fileType.match('json')) {
+					var jsonDataFile, dataUsersArray = new Array();
+					try {
+						jsonDataFile = JSON.parse( texto );
+						isMultipleItems = ( jsonDataFile['totalResults'] != undefined ); 
+						if (isMultipleItems) {
+							msgInfo = '';
+							msgInfo += 'Total ' + jsonDataFile['totalResults'];
+							msgInfo += '; Itens/p&aacute;gina ' + jsonDataFile['itemsPerPage'];
+							msgInfo += '; P&aacute;gina ' + jsonDataFile['startIndex'];
+							FLUIGC.toast({ timeout: 5000,
+								title: 'Dados da fonte: ',
+								message: msgInfo,
+								type: 'info'
+							});
+						}
+						dataUsers = [ ];
+						rowDataUser = { };
+						var jsonItem, _emails, _groups, _roles;
+						for (var idx = 0; idx < jsonDataFile.resources.length; idx++) {
+							jsonItem = jsonDataFile.resources[idx];
+							// rowDataUser = getUserObject(new Array(13));
+
+							rowDataUser = jsonItem;
+							// Adapt properties to Datatable.dataRequest & dataUsers array
+							// rowDataUser['id'] = jsonItem['id']; // NOT IN USED MODEL DATATABLE HTML // ADDED HERE
+							// rowDataUser['userName'] = jsonItem['userName'];
+							// rowDataUser['displayName'] = jsonItem['displayName'];
+							rowDataUser['meta'] = JSON.stringify( jsonItem['meta'] );
+							// rowDataUser['externalId'] = jsonItem['externalId'];
+							rowDataUser['phoneNumbers'] = jsonItem['phoneNumbers']; // (?=!) GETTING EMPTY(?!)
+
+							_emails = '';
+							jsonItem['emails'].forEach(function(it,id){
+								// _emails += ( (_emails.length > 0) ? ',' : '' ) + it.value; // it.display GETTING EMPTY(?!)
+								// Only primary or professional emails
+								if (it.type == 'work' || it['primary'] == true) {
+									_emails += ( (_emails.length > 0) ? ',' : '' ) + it.value; // it.display GETTING EMPTY(?!)
+								}
+								_emails = _emails.split(',');
+							});
+							rowDataUser['emails'] = _emails; // Format String: JSON.stringify( _emails );
+							
+							// rowDataUser['active'] = jsonItem['active'];
+
+							_groups = '';
+							jsonItem['groups'].forEach(function(it,id){
+								_groups += ( (_groups.length > 0) ? ',' : '' ) + it.value; // it.display GETTING EMPTY(?!)
+								_groups = _groups.split(',');
+							});
+							rowDataUser['groups'] = _groups; // Format String: JSON.stringify( _groups );
+
+							_roles = '';
+							jsonItem['roles'].forEach(function(it,id){
+								_roles += ( (_roles.length > 0) ? ',' : '' ) + it.value; // it.display GETTING EMPTY(?!)
+								_roles = _roles.split(',');
+							});
+							rowDataUser['roles'] = _roles; // Format String: JSON.stringify( _roles );
+
+							// rowDataUser['title'] = jsonItem['title'];
+							// rowDataUser['department'] = jsonItem['department'];
+
+							// Additional properties X Created properties
+							rowDataUser['password'] = jsonItem['password'];
+							rowDataUser['forceChangePassword'] = jsonItem['forceChangePassword'];
+							rowDataUser['manager'] = jsonItem['manager'];
+							rowDataUser['registration'] = jsonItem['registration'];
+							rowDataUser['groupRule'] = jsonItem['groupRule']; // WHAT ToDo?! "groupRole" X "roles"?! TO UNIFY?!
+
+							dataUsersArray.push(rowDataUser);
+						}
+					} catch (error) {
+						FLUIGC.toast({
+							title: 'C&oacute;digo de dados: ',
+							message: 'Falha de carregamento!',
+							type: 'warning'
+						});
+						
+						FLUIGC.toast({
+							title: 'ERROR: ',
+							message: error.message,
+							timeout: 1000,
+							type: 'danger'
+						});
+					}
+					
+					dataUsers = new Array();
+					dataTableUsers.reload(dataUsers,'.tableUserLine');
+					rowCount = 0;
+					for (var i = 0; i < dataUsersArray.length; i++) {
+						rowDataUser = dataUsersArray[i];
+						dataTableUsers.addRow(rowCount++, rowDataUser, '.tableUserLine');
+
+						// fluig Style Guide - Password Field Object
+						// COLUNA "SENHA", CAMPO INPUT (MOSTRAR/OCULTAR)
+						passVariable = ('userPass___' + rowDataUser.id);
+						fsObjUsersPass[passVariable] = FLUIGC.password('#' + passVariable, {
+															eyeClass: 'fluigicon',
+															eyeOpenClass: 'fluigicon-eye-open',
+															eyeCloseClass: 'fluigicon-key'
+														});
+
+						// fluig Style Guide - Switcher Field Object
+						// COLUNA "ALTERAR SENHA", CAMPO CHECKBOX
+						passChangeVar = ('changePassUser___' + rowDataUser.id);
+						if ( $('#' + passChangeVar).length > 0 ) {
+							$('#' + passChangeVar).removeAttr('checked'); //LIMPAR ATRIBUTO HTML E DOM PROPERTY
+							if ( rowDataUser['forceChangePassword'] && rowDataUser.forceChangePassword.match('true') ) {
+								$('#' + passChangeVar).attr('checked', true );
+								$('#' + passChangeVar).prop('checked', true );
+							}
+							// FIXED // FLUIGC.switcher.init - Criação individual
+							//       // Usar .initAll na tabela ao final do carregamento falha na 
+							//       // renderização, exibição da opção selecionada e funcionamento (alteração do valor)
+							FLUIGC.switcher.init('#' + passChangeVar);
+						}
+					}
+					
+					infoData  = new String(dataUsersArray[0].length).toString() + ' colunas, ';
+					infoData += new String(rowCount).toString() + ' ' + ( (dataUsersArray.length < 1)?'vazio':( (dataUsersArray.length == 1)?'item':'itens' ) ) + '.';
+					infoAlertHtml = infoAlertHtml.replace('${infoData}', infoData);
+
+					$('#alertsFileTobeRead').html(infoAlertHtml);
+				
+				}
+				else {
+					console.info(">> fileToRead.js > File is JSON :: NOT :: fileType.match('json') :: false ");
+					console.info(">> fileToRead.js > File is JSON :: NOT :: -->> " + "fileSelected.files[0]: { 'name': '" + fileSelected.files[0].name + "', 'type': '" + fileSelected.files[0].type + "'}");
+				}
 
 				//LEITURA ARQUIVO TEXTO / CSV
 				// if (!!fileType.match('text/xml') && fileType.match('plain|excel')) {
@@ -65,8 +203,9 @@ if (window.File && window.FileReader && window.FileList && window.Blob) {
 							}
 					
 							dataTableUsers.addRow(rowCount++, rowDataUser, '.tableUserLine');
-							//fluig Style Guide - Password Field Object
-							//JSON.parse( String('{\"prefix_').concat(123).concat('\": ').concat('\"valor abc\"}') )
+							// fluig Style Guide - Password Field Object
+							// COLUNA "SENHA", CAMPO INPUT (MOSTRAR/OCULTAR)
+							// // JSON.parse( String('{\"prefix_').concat(123).concat('\": ').concat('\"valor abc\"}') )
 							passVariable = ('userPass_' + rowDataUser.userName);
 							fsObjUsersPass[passVariable] = FLUIGC.password('#' + passVariable, {
 															    eyeClass: 'fluigicon',
@@ -74,18 +213,19 @@ if (window.File && window.FileReader && window.FileList && window.Blob) {
 															    eyeCloseClass: 'fluigicon-key'
 															});
 
-							//COLUNA "ALTERAR SENHA", CAMPO CHECKBOX
-							passVariable = ('changePassUser_' + rowDataUser.userName);
-							if ( $('#' + passVariable).length > 0 ) {
-								$('#' + passVariable).removeAttr('checked'); //LIMPAR ATRIBUTO HTML E DOM PROPERTY
+							// fluig Style Guide - Switcher Field Object
+							// COLUNA "ALTERAR SENHA", CAMPO CHECKBOX
+							passChangeVar = ('changePassUser_' + rowDataUser.userName);
+							if ( $('#' + passChangeVar).length > 0 ) {
+								$('#' + passChangeVar).removeAttr('checked'); //LIMPAR ATRIBUTO HTML E DOM PROPERTY
 								if ( rowDataUser.forceChangePassword.match('true') ) {
-									$('#' + passVariable).attr('checked', true );
-									$('#' + passVariable).prop('checked', true );
+									$('#' + passChangeVar).attr('checked', true );
+									$('#' + passChangeVar).prop('checked', true );
 								}
 								// FIXED // FLUIGC.switcher.init - Criação individual
 								//       // Usar .initAll na tabela ao final do carregamento falha na 
 								//       // renderização, exibição da opção selecionada e funcionamento (alteração do valor)
-								FLUIGC.switcher.init('#' + passVariable);
+								FLUIGC.switcher.init('#' + passChangeVar);
 							}
 						}
 
@@ -225,6 +365,10 @@ if (window.File && window.FileReader && window.FileList && window.Blob) {
 				type: 'danger'
 			});
 		}
+
+		if (dataTableUsers['hideLoading']) {
+			dataTableUsers.hideLoading();
+		} 
 	});
 }
 
