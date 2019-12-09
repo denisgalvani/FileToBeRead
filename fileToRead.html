@@ -452,42 +452,47 @@
 						var baseUrl = 'http://suaempresa.fluig.com/style-guide';
 						var selectorTarget = '#orgChart';
 						var imgThumbUser = baseUrl + "/images/user_picture.png";
-						var idOffset = 1;
+						var orgUsers = new Array();
 						var orgUsers = [
-							{id: 1, img: baseUrl + '/images/logo-demo-map.png', name: 'My Organization', parent: 0}
+							{id: 1, img: baseUrl + '/images/logo-demo-map.png', name: 'My Organization', parent: 0},
+							{id: 2, img: 'img/icons/fluigicon-company.png', name: 'CAOA', parent: 1},
+							{id: 3, img: 'img/icons/fluigicon-company.png', name: 'TOTVS', parent: 1},
+							{id: 4, img: 'img/icons/fluigicon-company.png', name: 'Montadora', parent: 2},
+							{id: 5, img: 'img/icons/fluigicon-company.png', name: 'Partners', parent: 3}
 						];
+						var idOffset = orgUsers[orgUsers.length-1].id;
 						var settings = {};
+						var parentDomains = { 'NO_DOMAIN': 1, 'caoa': 2, 'caoamontadora': 4, 'totvs': 3, 'totvspartners': 5, 'ethosx': 5, 'ez4': 5 };
 
-						var fnFindParent = function(managerValue) {
+						var fnFindParent = function(managerValue, stringEmails) {
 							var parentIds = [ ];
-							var idOffset  = 001;
+							var idTopLevel  = 001;
+							var domain = 'NO_DOMAIN';
 							if (typeof(managerValue) == 'undefined') {
-								parentIds = idOffset;
+// 								parentIds = idTopLevel;
+								if (typeof(stringEmails) == 'string' && stringEmails.length > 0 && !stringEmails.match(/\s/)) { 
+									domain = stringEmails.toLowerCase().split('@')[1].split('.')[0];
+								}
+								parentIds = parentDomains[domain];
 							}
-							else {
-								dataUsers.filter(function(currentValue,index,arr) {
-									// console.log('\t' + index + ':\t'
-									// 	+ 'currentValue{ \'registration\': ' + currentValue['registration'] + ', '
-									// 	+ '\'manager\': ' + currentValue['manager'] + '\t}\t'
-									// 	+ 'this: ' + this + '\t'
-									// 	+ '\t return: ' + (currentValue.manager.indexOf(this))
-									// );
-									// if(currentValue.manager.indexOf(this) >= 0) {
-									if (typeof(currentValue.manager) != 'undefined') { 
-										if ((Array.isArray(this) && currentValue.manager.indexOf(this[0].managerId) >= 0)
-											|| currentValue.manager.indexOf(this) >= 0) {
-											parentIds.push(index + idOffset);
-										}
-									}}
-								}, managerValue);
-							}
+                            else {
+                                dataUsers.filter(function(currentValue,index,arr) {
+                                    if (typeof(currentValue.manager) != 'undefined') {
+                                        if ( (Array.isArray(this) && currentValue.manager.indexOf(this[0].managerId) >= 0)
+                                            || currentValue.manager.indexOf(this) >= 0 ) {
+                                            parentIds.push(index + idTopLevel);
+                                        }
+                                    }
+                                }, managerValue);
+                            }
+
 							// fluig Style Guide - Organizational Chart falha array.length maior 1
-							if (parentIds.length > 0) {
+							if (Array.isArray(parentIds) && parentIds.length > 0) {
 								// 1 - ID padrão maior elemento no organograma
 								parentIds = parentIds[0];
 							}
-							return parentIds;
-						}
+							return parentIds || idTopLevel;
+						};
 
 						dataUsers.forEach(function(el,idx) {
 							var orgItemData = {
@@ -495,14 +500,10 @@
 								img: imgThumbUser,
 								name: el.displayName,
 								description: (el.emails.toString() + '\n' + el.title),
-								parent: fnFindParent(el.manager)
+								parent: fnFindParent(el.manager, el.emails.toString())
 							};
 							orgUsers.push( orgItemData );
 						});
-
-						// dataUsers.forEach(function(objUser,idx) {
-						// 	orgUsers[++idx].parent;
-						// });
 
 						settings['data'] = orgUsers;
 
@@ -515,6 +516,26 @@
 								type: 'success'
 							});
 						});
+
+						function usersInDomains() {
+							var usersPerDomain = {};
+							var domains = [];
+							dataUsers.filter(function(item,index,arr){
+								usersPerDomain['userIndex'] = index;
+								var domain = 'NO_DOMAIN';
+								var email = ( (Array.isArray(item.emails)) ? item.emails[0] : String(item.emails).toString() );
+								if (email.length > 0 && !email.match(/\s/)) { 
+									email = email.toLowerCase();
+									domain = email.split('@')[1].split('.')[0];
+								}
+								domains.push(domain);
+								var totalUsers = usersPerDomain[domain] || 0;
+							// 	if (domain.match(/totvs/i)) {
+									totalUsers += 1;
+							//     }
+								usersPerDomain[domain] = totalUsers;
+							});
+						}
 					}
 				</script>
 			</div>
