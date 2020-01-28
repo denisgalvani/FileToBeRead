@@ -1,1 +1,43 @@
-{"schemas":["urn:scim:schemas:core:2.0:User","urn:scim:schemas:extension:enterprise:2.0:User"],"id":"000131","name":{"formatted":"Denis Amaral Galvani","givenName":"Denis","familyName":"Amaral Galvani"},"userName":"denis.galvani","displayName":"Denis Amaral Galvani","meta":{"resourceType": "User","created":"2019-06-11_00:00:00","lastModified":"2019-11-22_00:00:00"},"externalId":"denis.galvani@caoa.com.br","phoneNumbers":[],"emails":[{"value":"denis.galvani@caoa.com.br","type":"work","primary":true}],"active":true,"groups":[{"value":"000000","display":""}],"roles":[{"value":"000000","display":""}],"title":"","department":"TI"}
+{
+    "active": true,
+    "department": "TI",
+    "displayName": "Denis Amaral Galvani",
+    "emails": [
+        {
+            "primary": true,
+            "type": "work",
+            "value": "denis.galvani@caoa.com.br"
+        }
+    ],
+    "externalId": "denis.galvani@caoa.com.br",
+    "groups": [
+        {
+            "display": "",
+            "value": "000000"
+        }
+    ],
+    "id": "000131",
+    "meta": {
+        "created": "2019-06-11_00:00:00",
+        "lastModified": "2019-11-22_00:00:00",
+        "resourceType": "User"
+    },
+    "name": {
+        "familyName": "Amaral Galvani",
+        "formatted": "Denis Amaral Galvani",
+        "givenName": "Denis"
+    },
+    "phoneNumbers": [],
+    "roles": [
+        {
+            "display": "",
+            "value": "000000"
+        }
+    ],
+    "schemas": [
+        "urn:scim:schemas:core:2.0:User",
+        "urn:scim:schemas:extension:enterprise:2.0:User"
+    ],
+    "title": "",
+    "userName": "denis.galvani"
+}
